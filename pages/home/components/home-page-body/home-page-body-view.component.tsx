@@ -1,5 +1,4 @@
-import { Fragment } from "react/jsx-runtime";
-
+import * as S from "./home-page-body-view.styled";
 export const HomePageBodyView: React.FC = () => {
-  return <Fragment />;
+  return <S.Content></S.Content>;
 };
