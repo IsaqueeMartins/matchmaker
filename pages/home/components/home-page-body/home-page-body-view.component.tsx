@@ -1,4 +1,5 @@
-import * as S from "./home-page-body-view.styled";
+import { Header } from "@/src/components/header/header.component";
+
 export const HomePageBodyView: React.FC = () => {
-  return <S.Content></S.Content>;
+  return <Header />;
 };
