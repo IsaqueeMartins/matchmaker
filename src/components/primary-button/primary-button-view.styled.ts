@@ -22,5 +22,4 @@ export const Container = styled.div<IPrimaryButtonProps>`
 export const Label = styled.h1`
   font-family: var(--font-geist);
   font-size: 14px;
-  font-weight: 800;
 `;

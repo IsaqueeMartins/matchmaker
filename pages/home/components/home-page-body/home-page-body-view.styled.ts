@@ -48,5 +48,5 @@ export const HeroButtons = styled.div`
 `;
 
 export const HeroCards = styled.div`
-  margin-top: 2rem;
+  margin-top: 4rem;
 `;
