@@ -46,3 +46,7 @@ export const HeroButtons = styled.div`
   flex-direction: row;
   gap: 10px;
 `;
+
+export const HeroCards = styled.div`
+  margin-top: 2rem;
+`;

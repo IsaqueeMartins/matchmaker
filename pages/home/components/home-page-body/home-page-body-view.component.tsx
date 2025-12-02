@@ -2,6 +2,7 @@ import { Header } from "@/src/components/header/header.component";
 import { Pill } from "@/src/components/pill/pill.component";
 import * as S from "./home-page-body-view.styled";
 import { PrimaryButton } from "@/src/components/primary-button/primary-button.component";
+import { Cards } from "@/src/components/cards/cards.component";
 export const HomePageBodyView: React.FC = () => {
   return (
     <S.Container>
@@ -30,6 +31,9 @@ export const HomePageBodyView: React.FC = () => {
             width={8}
           />
         </S.HeroButtons>
+        <S.HeroCards>
+          <Cards />
+        </S.HeroCards>
       </S.Hero>
     </S.Container>
   );
